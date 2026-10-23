@@ -1,0 +1,30 @@
+name: Build task
+description: A concrete milestone task with observable completion criteria
+title: "[Build] "
+body:
+  - type: input
+    id: milestone
+    attributes:
+      label: Milestone
+      description: Which roadmap day or dependency does this advance?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Intended outcome
+      description: What useful behavior should work after this task?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Completion evidence
+      description: Which checks and artifacts establish the outcome? Use synthetic or approved sanitized data.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and scope
+      description: Relevant contracts, prerequisites, owner, and boundaries.

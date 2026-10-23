@@ -1,0 +1,32 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime and private evidence
+.remediate/
+private/
+artifacts/
+results/
+recordings/
+*.sqlite
+*.sqlite-*
+*.db
+
+# Dependencies and generated files
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Model weights belong in an external/local cache
+*.onnx
+*.gguf
+*.safetensors
