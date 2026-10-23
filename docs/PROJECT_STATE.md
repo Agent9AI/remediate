@@ -4,11 +4,11 @@ Updated: 2026-10-23. This file records evidence-backed development state, not as
 
 ## Current outcome
 
-**Planning and repository foundation prepared. Application implementation has not started in this repository.**
+**Planning and repository foundation published to `main`. Application implementation has not started in this repository.**
 
 The full Word build plan has been converted into the canonical Markdown specification. Supporting architecture, sprint, submission, demo, validation, contribution, and session documents capture the project for future humans and agents.
 
-Foundation verification on 2026-10-23: the documentation check passed for 17 required files, 16 Markdown files, and 36 relative file links; the staged diff passed whitespace checks. The preserved Word snapshot is byte-identical to the supplied brief. Two independent reviews checked plan fidelity, submission accuracy, and architecture consistency. These checks do not establish application functionality.
+Foundation verification on 2026-10-23: the documentation check passed for 17 required files, 16 Markdown files, and 36 relative file links; the staged diff passed whitespace checks. The preserved Word snapshot is byte-identical to the supplied brief. Two independent reviews checked plan fidelity, submission accuracy, and architecture consistency. The complete foundation was published in commit `54fa8086df80fe45256096ad53901daeac6f998d`; its [GitHub documentation workflow](https://github.com/Agent9AI/remediate/actions/runs/40023507353) completed successfully. These checks do not establish application functionality.
 
 ## Owner decisions
 

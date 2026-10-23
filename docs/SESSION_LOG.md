@@ -34,6 +34,14 @@ The supplied comparison repository returned HTTP 404 to anonymous access at its 
 
 Start Day 1: shared contracts, actual Hexa discovery/finding read, controlled application mapping and baseline, one enforced grant, and browser speech audition. Continue into later milestones immediately when their dependencies pass.
 
+## 2026-10-23 — GitHub publication completed
+
+GitHub access was confirmed with write permission for `Agent9AI/remediate`. The complete 22-file foundation was published to `main` in [commit 54fa808](https://github.com/Agent9AI/remediate/commit/54fa8086df80fe45256096ad53901daeac6f998d). Its repository tree exactly matched the checked local foundation, including the original Word snapshot.
+
+The [Documentation checks run](https://github.com/Agent9AI/remediate/actions/runs/40023507353) completed successfully. This resolves the initial publication blocker; application implementation and its validation remain pending.
+
+Next: follow the Day 1 foundation tasks in `ROADMAP.md`. Several milestones may be completed in one session when their exit criteria pass.
+
 ## Session template
 
 ### Date / objective
